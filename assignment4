@@ -1,0 +1,55 @@
+ <html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 4</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+</head>
+
+<body>
+    <h1>Assignment 2-Tree Explore</h1>
+    <h2>Jou Lee</h2>
+    <p>Brush the first bar graph to narrow down tree data.</p> 
+    <p>Zoom in for tree details in the scatter plot below!</p>
+  
+    <div id="vis"></div>
+  
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+
+                        <div id="viz"></div>
+                    </div>
+                </div>
+             </div>
+            <div class="col">
+                <form id="charactersheet">
+                    <button id="add_character">Add Character</button>
+                </form>
+            </div>
+</body>
+
+<script>
+    var embedded = vegaEmbed("#viz", "train-map.json");
+    window.addEventListener("DOMContentLoaded", (event) => {
+        document.getElementById("add_character").addEventListener("click",
+            (button, event) => {
+                var newCharacter = {};
+                for (let attr of attrs) {
+                    newCharacter[attr] = document.getElementById(attr).value;
+                }
+                var cs = vega.changeset().insert([newCharacter]);
+                embedded.then(res => res.view.change('characters', cs).run());
+
+            });
+        var attrs = ["name", "class", "agility", "intelligence", "charisma", "constitution", "wisdom", "strength", "maxhp", "hp"];
+        attrDivs.append("label").attr("class", "form-label").attr("for", d => d).text(d => `Character ${d}`);
+        attrDivs.append("input").attr("class", "form-control").attr("name", d => d).attr("id", d => d);
+    });
+</script>
+
+</html>
