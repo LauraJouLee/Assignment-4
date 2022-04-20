@@ -1,0 +1,161 @@
+[
+  {
+    "sources": "Calgary", "target": "Nashville",
+    "points": 14
+  },
+  {
+    "sources":  "Chicago", "target": "Atlanta",
+    "points": 5
+  },
+  {
+    "sources": "Chicago", "target": "Boston",
+    "points": 7
+  },
+  {
+    "sources": "Chicago", "target": "New York",
+    "points": 5
+  },
+  {
+    "sources": "Denver", "target": "Saint Louis",
+    "points": 6
+  },
+  {
+    "sources": "Duluth", "target": "Dallas",
+    "points": 7
+  },
+  {
+    "sources": "Houston","target": "Washington",
+    "points": 10
+  },
+  {
+    "sources": "Kansas City", "target": "Boston",
+    "points": 11
+  },
+  {
+    "sources": "Las Vegas", "target": "Miami",
+    "points": 21
+  },
+  {
+   "sources": "Las Vegas", "target": "New York",
+    "points": 19
+  },
+  {
+    "sources": "Los Angeles", "target": "Atlanta",
+    "points": 15
+  },
+  {
+    "sources": "Los Angeles", "target": "Calgary",
+    "points": 12
+  },
+  {
+    "sources": "Los Angeles", "target": "Oklahoma City",
+    "points": 9
+  },
+  {
+    "sources": "Los Angeles", "target": "Miami",
+    "points": 19,
+    "revised": true
+  },
+  {
+    "sources": "Los Angeles", "target": "New York" ,
+    "points": 20,
+    "revised": true
+  },
+  {
+    "sources": "Montreal", "target": "Dallas" ,
+    "points": 13
+  },
+  {
+    "sources": "Montreal", "target": "Raleigh" ,
+    "points": 7
+  },
+  {
+    "sources": "Nashville", "target": "New York",
+    "points": 6
+  },
+  {
+    "sources": "New York", "target": "Miami" ,
+    "points": 10
+  },
+  {
+    "sources": "Omaha", "target": "New Orleans",
+    "points": 8
+  },
+  {
+    "sources": "Phoenix", "target": "Boston" ,
+    "points": 19
+  },
+  {
+    "sources": "Pittsburgh", "target": "New Orleans" ,
+    "points": 8
+  },
+  {
+    "sources": "Portland", "target": "Houston" ,
+    "points": 16
+  },
+  {
+    "sources": "Portland", "target": "Pittsburgh" ,
+    "points": 19
+  },
+  {
+    "sources": "Saint Louis", "target": "Miami" ,
+    "points": 8
+  },
+  {
+    "sources": "Salt Lake City", "target": "Chicago" ,
+    "points": 11
+  },
+  {
+    "sources": "Salt Lake City", "target": "Kansas City" ,
+    "points": 7
+  },
+  {
+    "sources": "San Francisco", "target": "Sault Ste. Marie",
+    "points": 17
+  },
+  {
+    "sources": "San Francisco", "target": "Washington",
+    "points": 21
+  },
+  {
+    "sources": "Sault Ste. Marie", "target": "Miami",
+    "points": 12
+  },
+  {
+   "sources": "Sault Ste. Marie", "target": "Oklahoma City",
+    "points": 8,
+    "revised": true
+  },
+  {
+    "sources": "Seattle", "target": "Las Vegas",
+    "points": 10
+  },
+  {
+    "sources": "Seattle", "target": "New York",
+    "points": 20,
+    "revised": true
+  },
+  {
+    "sources": "Seattle", "target": "Oklahoma City",
+    "points": 14
+  },
+  {
+    "sources": "Toronto", "target": "Charleston",
+    "points": 6
+  },
+  {
+    "sources":  "Vancouver", "target": "Denver",
+    "points": 11
+  },
+  {
+    "sources":  "Vancouver", "target": "Duluth",
+    "points": 13
+  },
+  {
+    "sources":  "Washington", "target": "Atlanta",
+    "points": 4
+  },
+  {
+    "sources": "Winnipeg", "target": "Santa Fe", "points": 10
+  }
+]
